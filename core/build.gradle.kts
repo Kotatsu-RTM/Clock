@@ -3,7 +3,7 @@ plugins {
 }
 
 repositories {
-    mavenCentral()
+    maven { url = uri("https://repo.siro256.dev/repository/maven-public/") }
 }
 
 dependencies {
