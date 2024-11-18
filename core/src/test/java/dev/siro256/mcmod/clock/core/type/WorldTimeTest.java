@@ -63,7 +63,7 @@ class WorldTimeTest {
         public void getTickTest() {
             int testCase = 256;
             WorldTime instance = new WorldTime(testCase);
-            Assert.assertEquals(instance.getTick(), testCase);
+            Assert.assertEquals(testCase, instance.getTick());
         }
     }
 
@@ -72,7 +72,7 @@ class WorldTimeTest {
         public void toStringTest() {
             int testCase = 1024;
             WorldTime instance = new WorldTime(testCase);
-            Assert.assertEquals(instance.toString(), "WorldTime(" + testCase + ")");
+            Assert.assertEquals("WorldTime(" + testCase + ")", instance.toString());
         }
     }
 
