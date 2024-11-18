@@ -1,6 +1,5 @@
-package dev.siro256.mcmod.clock.core;
+package dev.siro256.mcmod.clock.core.converter.impl;
 
-import dev.siro256.mcmod.clock.core.converter.impl.TwentyFourHourClockConverter;
 import dev.siro256.mcmod.clock.core.type.WorldTime;
 import org.junit.Assert;
 import org.junit.Test;
